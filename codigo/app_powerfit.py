@@ -219,12 +219,6 @@ class PowerFitApp(tk.Tk):
      
             texto_rutina = tk.Text(frame_texto, wrap=tk.WORD, font=("Roboto", 10), bg='white', width=80, height=20)
             texto_rutina.pack(side=tk.LEFT, fill='both', expand=True)
-
-            # barra de desplazamiento 
-            scrollbar = tk.Scrollbar(frame_texto, orient=tk.VERTICAL, command=texto_rutina.yview)
-            scrollbar.pack(side=tk.RIGHT, fill='y')
-
-            texto_rutina.config(yscrollcommand=scrollbar.set)
             
             # Insertar la rutina y resaltar Día 1
             for dia, ejercicios in self.rutinas_ej[rutina].items():
