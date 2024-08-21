@@ -10,7 +10,7 @@ class PowerFitApp(tk.Tk):
         self.title("PowerFit - Tu App de ejercicios")
 
         # Imagen de fondo para la pantalla de inicio
-        self.imagen_inicio = PhotoImage(file='imagenes/power_fit.png')
+        self.imagen_inicio = PhotoImage(file='power_fit.png')
 
         # Configuración de la ventana principal
         self.geometry(f"{self.imagen_inicio.width()}x{self.imagen_inicio.height()}")
