@@ -44,7 +44,7 @@ _Servin, Cecilia_
 ## INSTRUCCIONES PARA SU EJECUCIÓN 🚀
 1. Clonar el repositorio
    
-2. Ubicarse en la carpeta **PowerFit_App**
+2. Ubicarse en la carpeta **Grupo-5**
    
 3. Ejecutar el comando ```py App_PowerFit.py```
 
